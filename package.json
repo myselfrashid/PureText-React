@@ -1,6 +1,6 @@
 {
-  "homepage": "https://myselfrashid.github.io/PureText",
-  "name": "Pure Text",
+  "homepage": "https://myselfrashid.github.io/PureText-React",
+  "name": "PureText-React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,9 +15,9 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
